@@ -1,0 +1,82 @@
+.root{
+    -fx-background-color: #1C1C1C;
+}
+.textfield-display{
+    -fx-background-color: #333333;     /* Fondo oscuro */
+    -fx-text-fill: white;              /* Texto blanco */
+    -fx-font-size: 32px;               /* Tamaño grande para visibilidad */
+    -fx-font-weight: bold;
+    -fx-alignment: center-right;       /* Alineación tipo calculadora */
+    -fx-border-radius: 12px;           /* Bordes redondeados */
+    -fx-padding: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 180px;             /* Ajusta según tu layout */
+}
+.textfield-linea{
+    -fx-background-color: #333333;     /* Fondo oscuro */
+    -fx-text-fill: white;              /* Texto blanco */
+    -fx-font-size: 12px;               /* Tamaño mas pequeño para visibilidad */
+    -fx-font-weight: bold;
+    -fx-alignment: center-right;       /* Alineación tipo calculadora */
+    -fx-border-radius: 12px;           /* Bordes redondeados */
+    -fx-padding: 10px;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 180px;             /* Ajusta según tu layout */
+}
+
+.boton-numero {
+    -fx-pref-height: 45px;
+    -fx-pref-width: 60px;
+    -fx-font-size: 18px;
+    -fx-background-color: #505050;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px; /* mismo radius para que no se vea el fondo */
+    -fx-background-insets: 0;    /* evita que se recorte */
+}
+.boton-numero:hover {
+    -fx-border-color: #333333;
+}
+.boton-numero:pressed {
+    -fx-background-color: #666666;
+}
+
+.boton-funcion {
+    -fx-pref-height: 45px;
+    -fx-pref-width: 60px;
+    -fx-font-size: 18px;
+    -fx-background-color: #D4D4D2;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px; /* mismo radius para que no se vea el fondo */
+    -fx-background-insets: 0;    /* evita que se recorte */
+}
+.boton-funcion:hover {
+    -fx-border-color: #333333;
+}
+
+.boton-igual {
+    -fx-pref-height: 100px;
+    -fx-pref-width: 60px;
+    -fx-font-size: 18px;
+    -fx-background-color: #FF9500;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px; /* mismo radius para que no se vea el fondo */
+    -fx-background-insets: 0;    /* evita que se recorte */
+}
+.boton-igual:hover {
+    -fx-border-color: #333333;
+}
+.boton-igual:pressed {
+    -fx-background-color: #666666;
+}
